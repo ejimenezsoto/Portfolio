@@ -27,9 +27,9 @@ import threejs from "./tech/threejs.svg";
 import liquidsports from "./company/liquidsports.png";
 import pinterest from "./company/pinterest.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pokeApi from "./pokeApi.png"
 
 export {
   backend,
@@ -52,7 +52,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
   jobit,
   tripguide,
   camera,
@@ -60,4 +59,5 @@ export {
   android,
   liquidsports,
   pinterest,
+  pokeApi
 };

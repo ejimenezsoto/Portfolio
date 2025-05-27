@@ -18,12 +18,12 @@ import {
   git,
   figma,
   docker,
-  carrent,
   jobit,
   tripguide,
   threejs,
   liquidsports,
-  pinterest
+  pinterest,
+  pokeApi
 } from "../assets";
 
 export const navLinks = [
@@ -205,25 +205,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pokedex",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that Our app allows users to view pokemon by generation or all at once. Users can search for a pokemon by name and their search results will filter in real time. If a user clicks on a pokemon card it will show the user that pokemon's details. users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "pokeApi",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pokeApi,
+    source_code_link: "https://github.com/Jorgan612/Pokemon-Stretch-",
   },
   {
     name: "Job IT",
